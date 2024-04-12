@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+/* Reset de estilos */
+body, h1, h2, p, pre, code, ol, li {
+    margin: 0;
+    padding: 0;
+    background-color: #2C3E50;
+    color: white;
+    font-family:  'Fira code', arial sans-serif;
+}
+
+/* Estilos de navbar */
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.navbar-item {
+    color: white;
+    background-color: purple;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.highlight {
+    background-color: #ffdd00;
+    color: #222;
+    font-weight: bold;
+}
+
+.highlight:hover {
+    background-color: #ffd200;
+}
+
+/* Estilos de Markdown */
+.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.markdown-body p {
+    margin-bottom: 20px;
+}
+
+.markdown-body pre {
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    background-color: #374e64;
+    border-radius: 3px;
+}
+
+.markdown-body code {
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27,31,35,0.05);
+    border-radius: 3px;
+}
+
+.markdown-body ol, .markdown-body ul {
+    padding-left: 2em;
+}
+
+.markdown-body ol ol, .markdown-body ol ul, .markdown-body ul ol, .markdown-body ul ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.markdown-body li {
+    margin-bottom: 0.5em;
+}
+
+.markdown-body li > p {
+    margin-top: 16px;
+}
+
+/* Estilos para emojis */
+.emoji {
+    position: absolute;
+    font-size: 2rem;
+    opacity: 0.3;
+}
+
+/* Posicionamento dos emojis */
+.emoji-1 { top: 10%; left: 10%; }
+.emoji-2 { top: 20%; left: 20%; }
+.emoji-3 { top: 30%; left: 30%; }
+.emoji-4 { top: 40%; left: 40%; }
+.emoji-5 { top: 50%; left: 50%; }
+.emoji-6 { top: 60%; left: 60%; }
+.emoji-7 { top: 70%; left: 70%; }
+.emoji-8 { top: 80%; left: 80%; }
+.emoji-9 { top: 90%; left: 90%; }
+.emoji-10 { top: 15%; left: 80%; }
+.emoji-11 { top: 25%; left: 70%; }
+.emoji-12 { top: 35%; left: 60%; }
+.emoji-13 { top: 45%; left: 50%; }
+.emoji-14 { top: 55%; left: 40%; }
+.emoji-15 { top: 65%; left: 30%; }
+.emoji-16 { top: 75%; left: 20%; }
+.emoji-17 { top: 85%; left: 10%; }

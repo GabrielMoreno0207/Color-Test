@@ -41,3 +41,5 @@ function updateColorDisplay() {
         colorDisplay.appendChild(colorItem);
     });
 }
+
+

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Fira Code', Arial, sans-serif; /* Adicionando a fonte Fira Code */
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,6 +13,38 @@ body {
     color: #ffffff; /* cor do texto */
     position: relative; /* Permitir que os emojis sejam posicionados */
 }
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.navbar-item {
+    color: white;
+    background-color:  purple;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.highlight {
+    background-color: #ffdd00;
+    color: #222;
+    font-weight: bold;
+}
+
+.highlight:hover {
+    background-color: #ffd200;
+}
+
 
 .container {
     text-align: center;
@@ -132,3 +166,5 @@ body {
 h1 {
     margin-bottom: 20px;
 }
+
+
