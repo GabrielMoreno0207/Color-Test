@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Cores 🎨🖌</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="extensao.css">
+    <title>Teste de Cores</title>
+      
 </head>
 <body>
 
@@ -12,7 +14,6 @@
         <a href="extensão.html" class="navbar-item">Extensão VSCode</a>
         <a href="#" class="navbar-item highlight">Buy Me a Coffee</a>
     </div>
-    
     <!-- Emojis -->
     <div class="emoji emoji-1">😊</div>
     <div class="emoji emoji-2">🎨</div>
@@ -32,21 +33,35 @@
     <div class="emoji emoji-16">✨</div>
     <div class="emoji emoji-17">👏</div>
 
-    
     <!-- Conteúdo principal -->
     <div class="container">
         <h1>Color Test</h1>
         <div class="color-picker">
             <input type="text" class="color-input" id="colorInput" placeholder="Digite uma cor em hexadecimal (#RRGGBB)">
-                <br>
             <div class="color-preview" id="colorPreview"></div>
-            <div class="color-display" id="colorDisplay"></div>
+            <div class="color-display" id="colorDisplay">
+            </div>
+            <div class="color-preview2" id="colorPreview" ></div>
             <button class="clear-button" id="clearButton">Limpar Tudo</button>
-            <button class="copy-button" id="copyButton">Copiar Cores</button>
+            <button class="clear-button"  onclick="gerarCSS()">Gerar CSS</button>
+            <button class="clear-button" id="criarPaleta" onclick="criarPaletaDeCores()">Criar Paleta</button>
+            <button class="clear-button" id="clearButton">Compartilhar Paleta</button>
+            <div class="color-css" >
+                <code class ="code" id="css-output">
+                   
+                </code>
+                
+            </div>
         </div>
     </div>
+<br>
+        <button class="coffee-button" id="coffeeButton">Apoiar desenvolvedor</button>
+
+
+
+
+   
 
     <script src="script.js"></script>
-    <script src="modal.js"></script>
 </body>
 </html>
