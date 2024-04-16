@@ -134,3 +134,6 @@ function limparCores() {
     colorPreview.style.display = 'none';
     
 }
+
+
+  
